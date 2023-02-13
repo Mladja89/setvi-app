@@ -7,7 +7,6 @@ import DetailsPage from './pages/DetailsPage';
 import { Routes, Route, Link as RouterLink } from 'react-router-dom';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 
-
 const SetviLogo = () => {
   return (
     <div className="absolute z-10 right-2 select-none">

@@ -38,10 +38,7 @@ const HomePage: React.FC = () => {
     }, []);
 
     return (
-        <Grid className="relative" container direction="column" alignItems="center">
-            {/* <div className="absolute z-10 right-2 select-none">
-                <img style={{width: 70}} src={'https://ci3.googleusercontent.com/mail-sig/AIorK4xm6KNWiB4a36fx2hb5uqdv9ftu0JyrMRlAXbV5Zu4oRAp9aohiZW_vVe1fqlwLe3HkQerUlyI'} />
-            </div> */}
+        <Grid container direction="column" alignItems="center">
             <Grid item xs={12}>
                 <Link to={'/create'}><Button variant="contained" color="primary" className="px-16 py-4 m-5">Create</Button></Link>
             </Grid>
